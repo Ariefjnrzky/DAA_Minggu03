@@ -1,0 +1,6 @@
+# Inisiasi merubah list menjadi set
+print("# Inisiasi merubah list menjadi set")
+set_02 = set()
+set_03 = set([2, 1, 4, 3])
+print(type(set_02))
+print(set_03, "\n")
