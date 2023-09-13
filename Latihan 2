@@ -1,0 +1,5 @@
+bin_colors = ['Red', 'Green', 'Blue', 'Yellow']
+print("bin_colors = ", bin_colors, "\n")
+
+print("# Print Index ke-2")
+print(bin_colors[-3], "\n")
