@@ -1,0 +1,32 @@
+# Union Set
+print("# Union Set")
+set_A = {1, 2, 3, 4}
+print("set_A = ", set_A)
+set_B = {3, 4, 5, 6}
+print("set_B = ",set_B)
+print(set_A | set_B)
+print(set_A.union(set_B), "\n")
+
+# Intersection Set
+print("# Intersection Set")
+print(set_A & set_B)
+print(set_A.intersection(set_B), "\n")
+
+# Difference Set
+print("# Difference Set")
+print(set_A - set_B)
+print(set_A.difference(set_B), "\n")
+
+# Symmetric Difference Set
+print("# Symmetric Difference Set")
+print(set_A ^ set_B)
+print(set_A.symmetric_difference(set_B), "\n")
+
+# Latihan
+print("# Latihan")
+yellow = {'dandelions', 'leaves', 'fire hydrant'}
+red = {'fire hydrant', 'blood', 'rose', 'leaves'}
+print("yellow = ", yellow)
+print("red = ", red)
+print(yellow | red)
+print(yellow & red)
