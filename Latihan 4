@@ -1,0 +1,5 @@
+bin_colors = ["Arief Fadhiel Januarizky", "2022071045", "Informatika", "Design dan Analisis Algoritma", tanggal, "Universitas Pembangunan Jaya"]
+print("bin_colors = ", bin_colors, "\n")
+
+print("#Cetak Nama Universitas ")
+print(bin_colors[5], "\n")
