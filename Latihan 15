@@ -1,0 +1,5 @@
+# Inisiasi set dan merubah list menjadi set
+# Inisiasi set
+print("# Inisiasi set dan merubah list menjadi set")
+set_01 = {4, 5, 6, 2}
+print(set_01, "\n")
