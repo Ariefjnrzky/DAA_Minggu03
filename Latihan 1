@@ -1,0 +1,22 @@
+from datetime import date
+
+# Membuat list Mahasiswa
+mahasiswa = [
+    {
+        "Nama": "Arief Fdahiel Januarizky",
+        "NIM": "2022071045",
+        "Prodi": "Informatika",
+        "Mata Kuliah": "Desain dan Analisis Algoritma",
+        "Tanggal Hari Ini": date.today().strftime("%Y-%m-%d"),
+        "Nama Universitas": "Universitas Pembangunan Jaya"
+    }
+]
+# Menampilkan list Mahasiswa
+for mhs in mahasiswa:
+    print("Nama:", mhs["Nama"])
+    print("NIM:", mhs["NIM"])
+    print("Prodi:", mhs["Prodi"])
+    print("Mata Kuliah:", mhs["Mata Kuliah"])
+    print("Tanggal Hari Ini:", mhs["Tanggal Hari Ini"])
+    print("Nama Universitas:", mhs["Nama Universitas"])
+print("\n")
