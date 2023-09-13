@@ -1,0 +1,4 @@
+# Menambahkan nilai 10
+print("# Menambahkan nilai 10")
+set_04.add(10)
+print(set_04)
