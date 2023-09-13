@@ -1,0 +1,8 @@
+print("# Latihan")
+data_mahasiswa = {
+    "Nama": "Arief Fadhiel Januarizky",
+    "NIM": 2022071045,
+    "Prodi": "Informatika",
+    "Universitas": "UPJ"
+}
+print(data_mahasiswa)
