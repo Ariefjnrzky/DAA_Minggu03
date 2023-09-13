@@ -1,0 +1,3 @@
+bin_Mahasiswa = ["Arief Fadhiel Januarizky", "2022071045", "Informatika", "Design Analisis Algoritma", "University Pembangunan Jaya"]
+for Mahasiswa in bin_Mahasiswa:
+  print(" UPJ "+ Mahasiswa)
