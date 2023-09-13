@@ -1,0 +1,2 @@
+bin_Colors=["Red","Green","Blue","Yellow"]
+bin_Colors[1:4]
