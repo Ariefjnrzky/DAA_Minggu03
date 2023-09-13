@@ -1,0 +1,3 @@
+# Sets
+green = {'grass', 'leaves'}
+print(green, "\n")
